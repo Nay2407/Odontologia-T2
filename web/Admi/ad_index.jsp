@@ -3,7 +3,7 @@
     Created on : 29 may 2024, 1:42:59
     Author     : Franzuá
 --%>
-
+<%@page import="tools.Persona" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
@@ -32,7 +32,7 @@
                 <div class="enlaces" style="width: 250px;">
                     <a href="ad_index.jsp">Inicio</a>
                     <a href="ad_paciente.jsp">Paciente</a>
-                    <a href="ad_empleados.jsp">Empleados</a>
+                    <a href="ad_empleados.jsp?pagina=ad_empleado_listar">Empleados</a>
                     <a href="ad_inventario.jsp">Inventario</a>
                 </div>
                 <div class="enlaces">
